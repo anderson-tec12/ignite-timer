@@ -1,3 +1,3 @@
 # ignite-timer
-<title>Projeto para testar useReduce do proprio react</title>
+<p>Projeto para testar useReduce do proprio react</p>
 
