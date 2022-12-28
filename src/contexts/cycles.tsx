@@ -38,10 +38,16 @@ export function CycleContextProvider({ children }: Props) {
 
       if (storage) {
         return JSON.parse(storage);
+      } else {
+        return {
+          cycles: [],
+          activeCycleID: null,
+        };
       }
     }
   );
 
+  console.log("cyclesState", cyclesState);
   const { activeCycleID, cycles } = cyclesState;
 
   // const [activeCycleID, setActiveCycleID] = useState<string | null>(null);
