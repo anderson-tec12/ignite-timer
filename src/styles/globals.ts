@@ -14,6 +14,7 @@ export const GlobalStyles = createGlobalStyle`
       background: ${({ theme }) => theme["gray-900"]};
       color: ${({ theme }) => theme["gray-300"]};
       -webkit-font-smoothing: antialiased;
+      overflow: hidden;
     }
     body, input-security, button, textarea{
       font-family: 'Roboto', sans-serif;
