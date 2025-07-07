@@ -74,6 +74,8 @@ export function cyclesReducer(state: CyclesStage, action: any) {
       return produce(state, (draft) => {
         draft.cycles[currentCycleIndex].finishedDate = new Date();
         draft.activeCycleID = null;
+        const audio = new Audio('./public/music.mp3');
+        audio.play();
       });
     }
 
