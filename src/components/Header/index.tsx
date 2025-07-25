@@ -8,7 +8,7 @@ export function Header() {
   return (
     <HeaderContainer>
       <span>
-        <img src={Logo} />
+        <img src={Logo} onClick={() => { alert('v1') }} />
       </span>
       <nav>
         <NavLink to="/" title="Timer">
